@@ -1,9 +1,21 @@
-# OVERCLOCK WEB APPLICATION
+<p align="center">
+  <img src="assets/ocwa-repo-logo.jpg" alt="OCWA" width="820">
+</p>
 
-Overclock Web Application (OCWA) is a PHP/MariaDB web application that is intentially vulnerable. Its main goal is to be an aid for security professionals to test their skills and tools in a legal environment, help web developers better understand the processes of securing web applications and to aid both students & teachers to learn about web application security in a controlled class room environment.
+# OVERCLOCK Web Application (OCWA)
 
-The aim of OCWA is to **practice some of the most common web vulnerabilities**, with **various levels of difficulty**, with a simple straightforward interface.
-Please note, there are **both documented and undocumented vulnerabilities** with this software. This is intentional. You are encouraged to try and discover as many issues as possible.
+Overclock Web Application (OCWA) is a PHP/MariaDB web application that is intentionally
+vulnerable. It is the web target of the **OVERCLOCK** offensive-security lab (the NGS x
+GCU Hacknet project): a legal, controlled environment where security professionals,
+students, and teachers practice common web vulnerabilities at various levels of
+difficulty through a simple, straightforward interface. There are **both documented and
+undocumented vulnerabilities** by design; you are encouraged to discover as many as you
+can.
+
+**Part of the OVERCLOCK lab.** The automated installer for this box lives in
+[OCWA-Script](https://github.com/0x31i/OCWA-Script). Sibling lab boxes:
+[VulnWinServer](https://github.com/0x31i/VulnWinServer) and
+[VulnWorkstation](https://github.com/0x31i/VulnWorkstation).
 - - -
 
 ## WARNING!
@@ -28,7 +40,7 @@ Or [download a ZIP of the files](https://github.com/0x31i/OCWA/archive/master.zi
 
 ## Installation
 
-### Automated Installation 🛠️
+### Automated Installation
 
 An automated configuration script for DVWA on Debian-based machines, including Kali, Ubuntu, Kubuntu, Linux Mint, Zorin OS...
 
@@ -595,7 +607,7 @@ The challenges are exactly the same as for MariaDB, they just run against SQLite
 
 - - -
 
-👨‍💻 Contributors
+Contributors
 -----
 
 Thanks for all your contributions and keeping this project updated. :heart:
