@@ -5,7 +5,7 @@ namespace Src;
 use OpenApi\Attributes as OAT;
 
 # This is the definition for the whole file.
-#[OAT\Info(title: "DVWA API", version: "0.1")]
+#[OAT\Info(title: "OCWA API", version: "0.1")]
 #[OAT\Contact(email: "robin@digi.ninja", url: "https://github.com/digininja/DVWA/")]
 
 # It would be good if this could be dynamic but the $_SERVER variables

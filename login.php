@@ -32,7 +32,7 @@ if( isset( $_POST[ 'Login' ] ) ) {
 				LIMIT 1");
 	$result = @mysqli_query($GLOBALS["___mysqli_ston"],  $query );
 	if( mysqli_num_rows( $result ) != 1 ) {
-		dvwaMessagePush( "First time using DVWA.<br />Need to run 'setup.php'." );
+		dvwaMessagePush( "First time using OCWA.<br />Need to run 'setup.php'." );
 		dvwaRedirect( DVWA_WEB_PAGE_TO_ROOT . 'setup.php' );
 	}
 

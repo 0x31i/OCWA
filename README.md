@@ -42,7 +42,7 @@ Or [download a ZIP of the files](https://github.com/0x31i/OCWA/archive/master.zi
 
 ### Automated Installation
 
-An automated configuration script for DVWA on Debian-based machines, including Kali, Ubuntu, Kubuntu, Linux Mint, Zorin OS...
+An automated configuration script for OCWA on Debian-based machines, including Kali, Ubuntu, Kubuntu, Linux Mint, Zorin OS...
 
 **Note: This script requires root privileges and is tailored for Debian-based systems. Ensure you are running it as the root user.**
 
@@ -176,7 +176,7 @@ environment:
 
 ### Database Setup
 
-To set up the database, simply click on the `Setup DVWA` button in the main menu, then click on the `Create / Reset Database` button. This will create / reset the database for you with some data in.
+To set up the database, simply click on the `Setup` button in the main menu, then click on the `Create / Reset Database` button. This will create / reset the database for you with some data in.
 
 If you receive an error while trying to create your database, make sure your database credentials are correct within `./config/config.inc.php`. _This differs from config.inc.php.dist, which is an example file._
 
@@ -261,7 +261,7 @@ _...can easily be brute forced ;)_
 
 Login URL: <http://127.0.0.1/login.php>
 
-_Note: This will be different if you installed DVWA into a different directory._
+_Note: This will be different if you installed OCWA into a different directory._
 
 - - -
 
@@ -278,12 +278,12 @@ If you'd rather watch a video than read words, the most common issues are covere
 If you are using Docker Desktop, logs can be accessed from the graphical application.
 Some minor details may change with newer versions, but the access method should be the same.
 
-![Overview of DVWA compose](./docs/graphics/docker/overview.png)
-![Viewing DVWA logs](docs/graphics/docker/detail.png)
+![Overview of the OCWA compose](./docs/graphics/docker/overview.png)
+![Viewing OCWA logs](docs/graphics/docker/detail.png)
 
 Logs can also be accessed from the terminal.
 
-1. Open a terminal and change its working directory to DVWA
+1. Open a terminal and change its working directory to OCWA
 2. Show the merged logs
 
     ```sh

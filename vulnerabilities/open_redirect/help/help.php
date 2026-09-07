@@ -18,7 +18,7 @@
 		<br /><hr /><br />
 
 		<h3>Objective</h3>
-		<p>Abuse the redirect page to move the user off the DVWA site or onto a different page on the site than expected.</p>
+		<p>Abuse the redirect page to move the user off the OCWA site or onto a different page on the site than expected.</p>
 
 		<br /><hr /><br />
 
